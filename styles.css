@@ -30,7 +30,7 @@ body{
 }
 .btn-slide {
     position: absolute;
-    bottom: 20px;
+    bottom: 5%;
     left: 50%;
     display: flex;
     transform: translateX(-50%);
@@ -45,11 +45,10 @@ body{
 
 .carousel .arrow {
     position: absolute;
-    top: 5%;
+    top: 0%;
     /* transform: translateY(-50%); */
-    width: 125px;
+    width: 15%;
     height: 100%;
-    /* border: 2px solid white; */
     cursor: pointer;
     
 }
@@ -63,16 +62,20 @@ body{
 }
 
 .arrow span{
-    margin-top: 200px;
+    position: absolute;
+    top: 50%;
     font-size: 25px;
     color: rgba(255, 255, 255,0.6);
     /* line-height: 30px; */
 }
-.carousel .right {
+.right {
+    position: absolute;
     right: 0;
 }
-.carousel .left {
+.left {
+    position: absolute;
     left: 0;
+
 }
 
 
